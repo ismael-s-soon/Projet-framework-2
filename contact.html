@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body class="bg-[#F5F3ED]">
+    <header class=" h-auto bg-[#F5F3ED]">
+        <nav class="w-full shadow-sm md:px-5 fixed z-10 bg-white top-0 ">
+            <div class="flex justify-between items-center p-6 sm:pb-8">
+                <!-- <div class="border-b border-gray-300 p-4 hidden sm:block">
+                    <input type="search" placeholder="Search books..." class="outline-0">
+                    <label for=" search"><i class="bi bi-search"></i></label>
+                </div> -->
+                <div class="uppercase text-2xl font-extrabold">
+                    <h2>bootin</h2>
+                </div>
+                <ul class="justify-center items-center gap-x-4 hidden sm:flex">
+                    <li class="hover:underline hover:text-red-400 text-xl font-semibold text-gray-600"><a href="./index.html">Home</a></li>
+                    <li class="hover:underline hover:text-red-400 text-xl font-semibold text-gray-600"><a href="./shop.html">Shop</a></li>
+                    <li class="hover:underline hover:text-red-400 text-xl font-semibold text-gray-600"><a href="./post.html">Post</a></li>
+                    <li class="underline text-red-400 text-xl font-semibold active:text-red-400"><a href="./contact.html">Contact</a></li>
+                </ul> 
+                <div class=" justify-center items-center hidden sm:flex">
+                    <div class="relative px-4 py-1 flex justify-center items-center border-r border-gray-300">
+                        <i class="fa-regular fa-heart text-xl"></i>
+                        <p class="rounded-full w-5 h-5 flex justify-center items-center text-white text-sm font-semibold bg-red-500 absolute bottom-4 right-2">3</p>
+                    </div>
+                    <div class="relative px-4 py-1 flex justify-center items-center border-r border-gray-300">
+                        <i class="fa-regular fa-bookmark text-xl"></i>
+                        <p class="rounded-full w-5 h-5 flex justify-center items-center text-white text-sm font-semibold bg-red-500 absolute bottom-4 right-2">0</p>
+                    </div>
+                    <div class="relative px-4 py-1 flex justify-center items-center">
+                        <i class="fa-solid fa-user text-xl"></i>
+                    </div>
+                </div>
+                <label for="menu" class="sm:hidden cursor-pointer "><i class="fa-solid fa-bars text-3xl"></i></label> 
+            </div>
+            
+        </nav>
+            <input type="checkbox" id="menu" class="hidden peer">
+            <ul class="justify-center items-center gap-x-4 p-8 bg-white z-10 fixed w-full mt-2.5 shadow-lg max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-[300px] peer-checked:opacity-100 opacity-0">
+                <li class="hover:underline hover:text-red-400 text-xl font-semibold text-gray-600 pb-6"><a href="./index.html">Home</a></li>
+                <li class="hover:underline hover:text-red-400 text-xl font-semibold text-gray-600 pb-6"><a href="./shop.html">Shop</a></li>
+                <li class="hover:underline hover:text-red-400 text-xl font-semibold text-gray-600 pb-6"><a href="./post.html">Post</a></li>
+                <li class="underline text-red-400 text-xl font-semibold active:text-red-400"><a href="./contact.html">Contact</a></li>
+            </ul> 
+       
+            <div class="contain-content w-full mt-20 relative flex justify-center items-center">
+                <img src="./logo/bg.jpg" alt="" class="w-full md:h-[400px] h-[250px] object-buttom ">
+                <h1 class="text-4xl font-bold absolute text-white">Contact Us</h1>
+            </div>
+    </header>
+    <main class="h-auto bg-white">
+        <div class="w-full grid grid-cols-1 p-4  md:p-10 md:grid-cols-2">
+            <div class="col-span-1">
+                <div class="flex flex-col justify-center items-start py-4">
+                    <h2 class="text-2xl font-extrabold">Address</h2>
+                    <input type="text" value="14 LE Gounlburn St, Sydey 1198NSA." class="w-full">
+                </div>
+                <div class="flex flex-col justify-center items-start py-4">
+                    <h2 class="text-2xl font-extrabold">Phone</h2>
+                    <input type="tel" value="(+089) 19918989" class="w-full">
+                </div>
+                <div class="flex flex-col justify-center items-start py-4">
+                    <h2 class="text-2xl font-extrabold">Email</h2>
+                    <input type="email" value="support@domain.com" class="w-full">
+                </div>
+                <div class="flex flex-col justify-center items-start py-4">
+                    <h2 class="text-2xl font-extrabold">Opening time</h2>
+                    <input type="datetime" value="8:00Am - 10:00Pm, Sunday Close" class="w-full">
+                </div>
+                <div class="flex flex-col justify-center items-start py-4">
+                    <h2 class="text-2xl font-extrabold">Follow us on</h2>
+                    <div class="flex items-center gap-6">
+                        <a href="" class="cursor-pointer hover:text-red-300"><i class="fa-brands fa-facebook-f text-xl"></i></a>
+                        <a href="#" class="cursor-pointer hover:text-red-300"><i class="fa-brands fa-twitter text-xl"></i></a>
+                        <a href="#" class="cursor-pointer hover:text-red-300"><i class="fa-brands fa-instagram text-xl"></i></a>
+                        <a href="#" class="cursor-pointer hover:text-red-300"><i class="fa-brands fa-linkedin-in text-xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="overflow-hidden border border-transparent h-[420px] md:w-ful md:h-full rounded-md">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.87597091894!2d2.273711776209437!3d13.233099387106869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11d0177d49ce8e73%3A0x3b1d2f4ccdf3eeb!2sCit%C3%A9%20de%20L&#39;innovation%20de%20Sador%C3%A9!5e0!3m2!1sfr!2sne!4v1761426536100!5m2!1sfr!2sne" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-full"></iframe>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 p-4 md:p-10 md:grid-cols-2 lg:grid-cols-3">
+            <div class="lg:col-span-2 ">
+                <h2 class="text-2xl font-extrabold">Get in touch</h2>
+                <div class="flex flex-col gap-4 py-8 ">
+                    <div class="w-full flex items-center justify-center gap-4 ">
+                        <input type="text" placeholder="Name" class="p-2 bg-[#F2F4F5] text-gray-500 text-md w-full rounded-sm outline-none">
+                        <input type="email" placeholder="Email" class="p-2 bg-[#F2F4F5] text-gray-500 text-md w-full rounded-sm outline-none">
+                    </div>
+                        <input type="text" placeholder="Subject" class="p-2 bg-[#F2F4F5] text-gray-500 text-md w-full rounded-sm outline-none">
+                        <textarea name="comment" id="" class="pb-10 p-2 bg-[#F2F4F5] text-gray-400 text-md w-full rounded-sm outline-none">Your Message</textarea>
+                    <div class="">
+                        <button class="bg-red-500 py-2 px-4 text-white opacity-75 cursor-pointer hover:bg-red-600 rounded-sm">Send Message</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-end items-center relative lg:col-span-1">
+                <h1 class="uppercase text-5xl font-extrabold -rotate-90 absolute -right-[125px] text-[#DCDCDC]">Contact us</h1>
+            </div>
+        </div>
+    </main>
+    <footer class=" bottom-0 w-full bg-gray-100">
+        <div class="contain-content lg:px-10 px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:px-20">
+            <div class="py-4">
+                <h2 class="text-2xl font-semibold pb-4">Contact Us</h2>
+                <hr class="w-16 text-red-400 pb-3.5">
+                <ul class="flex flex-col justify-center gap-3  ">
+                    <li class="flex items-center gap-3.5">
+                        <i class="fa-solid fa-location-dot text-xl"></i>
+                        <div class="flex flex-col justify-center ">
+                            <p>1998 Wall Street 707,</p>
+                            <p>Washington DC, USA</p>
+                        </div>
+                    </li>
+                    <li class="flex items-center gap-3.5">
+                        <i class="bi bi-envelope-fill text-xl"></i>
+                        <div class="flex flex-col justify-center ">
+                            <p>bookmark@domain.com</p>
+                            <p>support@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="flex items-center gap-3.5">
+                        <i class="fa-solid fa-phone text-xl"></i>
+                        <div class="flex flex-col justify-center ">
+                            <p>(84) 0123 456 789</p>
+                            <p>(84) 00123 456 789</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="py-4">
+                <h2 class="text-2xl font-semibold pb-4">Information</h2>
+                <hr class="w-16 text-red-400 pb-3.5">
+                <ul class="flex flex-col justify-center gap-3  ">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Costumer Services</a></li>
+                </ul>
+            </div>
+            <div class=" py-4">
+                <h2 class="text-2xl font-semibold pb-4">My Account</h2>
+                <hr class="w-16 text-red-400 pb-3.5">
+                <ul class="flex flex-col justify-center gap-3  ">
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">View Cart</a></li>
+                    <li><a href="#">My Wshilist</a></li>
+                    <li><a href="#">Track My Order</a></li>
+                    <li><a href="#">Hep</a></li>
+                </ul>
+            </div>
+            <div class=" py-4 w-full">
+                <h2 class="text-2xl font-semibold pb-4">Instagram</h2>
+                <hr class="w-16 text-red-400 pb-3.5">
+                <ul class="flex flex-col justify-center gap-y-2.5 ">
+                    <li class="grid grid-cols-3 w-full gap-x-4.5">
+                        <img src="./images/ins1.png" alt="">
+                        <img src="./images/ins2.png" alt="" >
+                        <img src="./images/ins3.png" alt="">
+                    </li>
+                    <li class="text-red-400 font-semibold">7 DaysA Week From 8:00 Am To 5 Pm</li>
+                    <li class="flex items-center justify-start gap-x-6">
+                        <a href="" class="cursor-pointer hover:text-red-300"><i class="fa-brands fa-facebook-f text-4xl"></i></a>
+                        <a href="#" class="cursor-pointer hover:text-red-300"><i class="fa-brands fa-twitter text-4xl"></i></a>
+                        <a href="#" class="cursor-pointer hover:text-red-300"><i class="fa-brands fa-instagram text-4xl"></i></a>
+                        <a href="#" class="cursor-pointer hover:text-red-300"><i class="fa-brands fa-pinterest-p text-4xl"></i></i></a>
+                        <a href="#" class="cursor-pointer hover:text-red-300"><i class="fa-brands fa-linkedin-in text-4xl"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
